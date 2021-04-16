@@ -1,0 +1,75 @@
+
+
+
+.pagedesc{
+    color: gray;
+    text-align: center;
+}
+
+a{
+    color: gray;
+}
+
+.previews{
+    border: blue solid 3px;
+    width: 325px;
+    height: 475px;
+}
+
+.aqua-page{
+    background-color: midnightblue;
+}
+
+body {
+    background: darksalmon;
+}
+
+.fill{
+    /*background-image: url('http:source.unsplash.com/random/150x150');*/
+    background-image: url('loli-food-150px.jpg');
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+
+}
+
+.fill2{
+    /*background-image: url('http:source.unsplash.com/random/150x150');*/
+    background-image: url('nomnom-150px.jpg');
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+
+}
+
+.empty{
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: seashell;
+}
+
+.hold{
+    border: solid #ccc 4px;
+}
+
+
+.hovered{
+background: #f4f4f4;
+border-style: dashed;
+}
+
+.invisible{
+display: none;
+
+}
+
+
